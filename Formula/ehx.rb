@@ -4,28 +4,28 @@
 class Ehx < Formula
   desc "Terminal hex editor with Emacs keybindings"
   homepage "https://github.com/sanohiro/ehx"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sanohiro/ehx/releases/download/v0.1.5/ehx-macos-aarch64.tar.gz"
-      sha256 "3a1122d14c24fd6f3b79595976103f57b4d08a0d5630f20fe623ba0b6ad218dc"
+      url "https://github.com/sanohiro/ehx/releases/download/v0.1.6/ehx-macos-aarch64.tar.gz"
+      sha256 "0852d2a05a76ee94890c6fc1db2474cddbe33b9fdc365a1175ed0020d81ede81"
     end
     on_intel do
-      url "https://github.com/sanohiro/ehx/releases/download/v0.1.5/ehx-macos-x86_64.tar.gz"
-      sha256 "7954ba90b24b0e0e8982e7208bf1f9057755b04b021203b844f8037c5e7187ae"
+      url "https://github.com/sanohiro/ehx/releases/download/v0.1.6/ehx-macos-x86_64.tar.gz"
+      sha256 "4154f7743b55e7437a14cc806c6c7391c9be765ded45782936f9c777bad18c01"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sanohiro/ehx/releases/download/v0.1.5/ehx-linux-aarch64.tar.gz"
-      sha256 "159b515fb69192d8d3913a82da5d343d2db93f5206875eb2a751e139377517c4"
+      url "https://github.com/sanohiro/ehx/releases/download/v0.1.6/ehx-linux-aarch64.tar.gz"
+      sha256 "d53408e9d4ff0eaec7abc5c4719a9b8269d0078a888cea4eb2e5a27be8b90c90"
     end
     on_intel do
-      url "https://github.com/sanohiro/ehx/releases/download/v0.1.5/ehx-linux-x86_64.tar.gz"
-      sha256 "39fc7d7b154711f77cc95b96521218ec8051238ef5b2a4f30c81d2966a685dce"
+      url "https://github.com/sanohiro/ehx/releases/download/v0.1.6/ehx-linux-x86_64.tar.gz"
+      sha256 "32bde368a8bb025276651836302f142ee48710b090773c85d1d210ff30883999"
     end
   end
 
